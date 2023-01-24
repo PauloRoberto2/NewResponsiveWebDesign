@@ -1,2 +1,4 @@
 # (New) Responsive Web Design
-(New) Responsive Web Design by <freecodecamp.org>
+### [Learn HTML](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app)
+
+by [freeCodeCamp](freecodecamp.org)
