@@ -6,25 +6,30 @@ body {
   h1, h2, p {
     text-align: center;
   }
-.menu {
+  
+  .menu {
     width: 80%;
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     max-width: 500px;
-}
-    h1, h2{
-        font-family: Impact;
-    }
-.item p {
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
     display: inline-block;
-}
-.flavor,.dessert {
+  }
+  
+  .flavor, .dessert {
     text-align: left;
-    width: 75%;  
-}
-.price {
+    width: 75%;
+  }
+  
+  .price {
     text-align: right;
-    width: 25%;
-}
+    width: 25%
+  }
