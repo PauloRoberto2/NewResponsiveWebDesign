@@ -28,9 +28,10 @@ h1, h2, p {
   max-width: 500px;
 }
 hr{
+  border-width: 1px;
   border-color: brown;
   background-color: brown;
-  height: 3px;
+  height: 2px;
 }
 h1, h2 {
   font-family: Impact, serif;
