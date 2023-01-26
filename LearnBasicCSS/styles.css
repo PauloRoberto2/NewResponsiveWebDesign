@@ -28,6 +28,7 @@ h1, h2, p {
   max-width: 500px;
 }
 hr{
+  border-color: brown;
   background-color: brown;
   height: 3px;
 }
