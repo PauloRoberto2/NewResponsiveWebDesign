@@ -3,7 +3,7 @@ This repository contains solutions for the exercises proposed by the [Responsive
 
 ### [Learn HTML](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app)
 In this section of the course, you will learn how to structure the content of a website using HTML. Solutions for this section can be found in the `html` folder.
-![HTML](https://user-images.githubusercontent.com/56531195/215421270-2d1c33eb-87b9-4ad1-9a86-b0889b44d6a1.png)
+![Learn HTML](https://user-images.githubusercontent.com/56531195/215421270-2d1c33eb-87b9-4ad1-9a86-b0889b44d6a1.png)
 
 ### [Learn Basic CSS](https://www.freecodecamp.org/portuguese/learn/2022/responsive-web-design/#learn-basic-css-by-building-a-cafe-menu)
 In this section of the course, you will learn how to give style and shape to the content structured with HTML using CSS. Solutions for this section can be found in the `css` folder.
