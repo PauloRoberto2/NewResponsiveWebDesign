@@ -3,11 +3,11 @@ This repository contains solutions for the exercises proposed by the [Responsive
 
 ### [Learn HTML](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app)
 In this section of the course, you will learn how to structure the content of a website using HTML. Solutions for this section can be found in the `html` folder.
-[Image](https://imgur.com/1zs7HpY){target="_blank"}
+<a href="https://imgur.com/1zs7HpY" target="_blank">Image</a>
 
 ### [Learn Basic CSS](https://www.freecodecamp.org/portuguese/learn/2022/responsive-web-design/#learn-basic-css-by-building-a-cafe-menu)
 In this section of the course, you will learn how to give style and shape to the content structured with HTML using CSS. Solutions for this section can be found in the `css` folder.
-[Image](https://imgur.com/3rHkw3N)
+<img src = "https://imgur.com/3rHkw3N" alt = "Basic CSS"
 
 ### [Learn CSS Colors](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-colors-by-building-a-set-of-colored-markers)
 In this section of the course, you will learn about colors and how to use them in CSS. Solutions for this section can be found in the `css-colors` folder.
