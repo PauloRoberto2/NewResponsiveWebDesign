@@ -11,7 +11,7 @@ In this section of the course, you will learn how to give style and shape to the
 
 ### [Learn CSS Colors](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-colors-by-building-a-set-of-colored-markers)
 In this section of the course, you will learn about colors and how to use them in CSS. Solutions for this section can be found in the `css-colors` folder.
-[CSS Colors](https://user-images.githubusercontent.com/56531195/215421315-b41072e2-100f-4561-a85c-2b7d3126790c.png)
+[CSS Color](https://user-images.githubusercontent.com/56531195/215421315-b41072e2-100f-4561-a85c-2b7d3126790c.png)
 
 ### [Learn HTML Forms](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-forms-by-building-a-registration-form)
 In this section of the course, you will learn how to create forms using HTML. Solutions for this section can be found in the `html-forms` folder.
