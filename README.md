@@ -7,7 +7,7 @@ In this section of the course, you will learn how to structure the content of a 
 
 ### [Learn Basic CSS](https://www.freecodecamp.org/portuguese/learn/2022/responsive-web-design/#learn-basic-css-by-building-a-cafe-menu)
 In this section of the course, you will learn how to give style and shape to the content structured with HTML using CSS. Solutions for this section can be found in the `css` folder.
-[![Basic CSS](https://imgur.com/3rHkw3N)
+[![Basic CSS](https://user-images.githubusercontent.com/56531195/215419689-f1f36366-64f5-4000-9cbe-6cd74c4741d8.png)
 
 ### [Learn CSS Colors](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-colors-by-building-a-set-of-colored-markers)
 In this section of the course, you will learn about colors and how to use them in CSS. Solutions for this section can be found in the `css-colors` folder.
