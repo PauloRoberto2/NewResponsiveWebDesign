@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <meta charset="UTF-8">
-        <title>Formulário de pesquisa</title>
-    </head>
-    <body>
-        <div class="container">
-            <header>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Formulário de pesquisa</title>
+</head>
+<body>
+    <div class="container">
+        <header>
                 <h1 id="title">
-                    Formulário de pesquisa
-                </h1>
-               <p id="description">
-                   Obrigado por nos ajuda a melhorar a plataforma
-                </p>
-            </header>
-        </div>
+                Formulário de pesquisa
+            </h1>
+            <p id="description">
+            Obrigado por nos ajuda a melhorar a plataforma
+            </p>
+        </header>
         <form id="survey-form">
-            <div>
-                <label for="name-label">Name</label>
-                <input type="text" id="name">
+            <div class="form-group">
+                <label id="name-label">Nome</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
             </div>
             <div>
-                <label for="email-label">Email</label>
-                <input type="text" id="email">
+                <label id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Enter your Email" required>
             </div>
-            <div>
-                <label for="number-label">Age</label>
-                <input type="number" id="number">
-            </div>
-            <div>
-                <label for="role-label">Which option best describes your current role?</label>
-                <select name="role" id="role">
-                    <option value="">Select current role</option>
-                    <option value="1">Student</option>
-                    <option value="2">Full time Job</option>
-                    <option value="3">Full Time Learner</option>
-                    <option value="4">Prefer not to say</option>
-                    <option value="5">Other</option>
-                </select>
-            </div>
-        </form>
-    </body>
+        <div class="form-group">
+            <label id="number-label">Idade</label>
+            <input type="number" id="number" min="10" max="99" placeholder="Age">
+        </div>
+        <div class="form-group">
+            <label for="role-label">Qual opção melhor descreve sua função atual?</label>
+            <select name="role" id="role">
+                <option value="">Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full time Job</option>
+                <option value="3">Full Time Learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select>
+        </div>
+        <div>
+            <button class="submit-button" id="submit">Submit</button>
+        </div>
+    </div>
+    </form>
+</body>
 </html>
-    
+        

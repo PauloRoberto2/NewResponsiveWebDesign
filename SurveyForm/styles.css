@@ -1,11 +1,13 @@
 body{
-    background: url(https://wallpapercave.com/wp/wp6702069.jpg);
+    background: url(https://wallpapercave.com/wp/wp4194091.jpg);
     font-family: sans-serif;
     color: white;
+
 }
 
 .container{
-    width: 100%;
+    max-width: 500px;
+    min-width: 300px
     text-align: center;
     color: #f3f3f3;
 }
@@ -25,7 +27,27 @@ p{
     margin: -1em auto;
 }
 
+form{
+    /* max-width: 500px;
+    min-width: 300px; */
+    margin: 0 auto;
+    padding: 2em;
+}
+
 label{
     display: block;
-    margin: 0.5rem 0;
+    margin-top: 8px;
+    text-align: left;
+}
+
+input, button, select, textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+.submit-button{
+    background-color: #37AF65;
+    border-color: #37AF65;
+    color: #FFFFFF;
 }
