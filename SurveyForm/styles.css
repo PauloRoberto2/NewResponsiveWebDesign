@@ -1,15 +1,31 @@
 body{
-    background-color: lightblue;
-    font-family: 'Poppins', sans-serif;
+    background: url(https://wallpapercave.com/wp/wp6702069.jpg);
+    font-family: sans-serif;
     color: white;
 }
 
-h1{
-    margin: 1em auto;
+.container{
+    width: 100%;
     text-align: center;
+    color: #f3f3f3;
+}
+
+header{
+    padding: 0 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h1{
+    font-size: 32px;
+    margin: 1em auto;
 }
 
 p{
+    font-size: 18px;
     margin: -1em auto;
-    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
 }
