@@ -58,3 +58,7 @@ body {
     color: #ffffff;
     min-height: 2em;
   }
+  input[type="submit"]{
+    display: block;
+    width: 60%;
+}
