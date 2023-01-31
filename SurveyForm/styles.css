@@ -1,0 +1,15 @@
+body{
+    background-color: lightblue;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1{
+    margin: 1em auto;
+    text-align: center;
+}
+
+p{
+    margin: -1em auto;
+    text-align: center;
+}
