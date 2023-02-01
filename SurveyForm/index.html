@@ -1,49 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <title>Formulário de pesquisa</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<title>Formulário de pesquisa</title>
+	<h1 class="text-center" id="title">freeCodeCamp Survey Form</h1>
+	<p class="text-center" id="description">Thank you for taking the time to help us improve the platform</p>
 </head>
 <body>
-    <div class="container">
-        <header>
-                <h1 id="title">
-                Formulário de pesquisa
-            </h1>
-            <p id="description">
-            Obrigado por nos ajuda a melhorar a plataforma
-            </p>
-        </header>
-        <form id="survey-form">
-            <div class="form-group">
-                <label id="name-label">Nome</label>
-                <input type="text" id="name" placeholder="Enter your name" required>
-            </div>
-            <div>
-                <label id="email-label">Email</label>
-                <input type="email" id="email" placeholder="Enter your Email" required>
-            </div>
+	<div class="box">
+		<form action="" id="survey-form">
+			<fieldset>
+				<div class="form-group">
+					<label id="name-label">Nome</label>
+					<input type="text" id="name" placeholder="Digite seu nome" required>
+				</div>
+				<div class="form-group">
+					<label id="email-label">Email</label>
+					<input type="email" id="email" placeholder="Digite seu e-mail" required>
+				</div>
+				<div class="form-group">
+					<label id="number-label">Idade (opcional)</label>
+					<input type="number" id="number" placeholder="Idade" min="10" max="99">
+				</div>
+				<div class="form-group">
+					<label id="funcao">Qual a opção que melhor descreve o seu papel atual?</label>
+					<select name="role" id="dropdown" required>
+						<option disabled selected value>Selecione uma opção</option>
+						<option value="estudante">Estudante</option>
+						<option value="trabalho">Trabalho em tempo integral</option>						
+						<option value="aula">Aluno em tempo integral</option>						
+						<option value="prefiro">Prefiro não dizer</option>						
+						<option value="outros">Outros</option>							
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>Você recomendaria o freeCodeCamp a um amigo?</label>
+					<label>
+						<input name="amigo" class="oradio" value="recom" name="Definitivamente" type="radio" checked>Definitivamente
+					</label>
+					<label>
+						<input name="amigo" class="oradio" value="recom" name="Talvez" type="radio">Talvez
+					</label>
+					<label>
+						<input name="amigo" class="oradio" value="recom" name="Não tenho certeza" type="radio">Não tenho certeza
+				</label>
+				<div class="form-group">
+					<label id="funcao">Qual a opção que melhor descreve o seu papel atual?</label>
+					<select name="role" id="feature" required>
+						<option disabled selected value>Selecione uma opção</option>
+						<option value="desafios">Desafios</option>
+						<option value="projetos">Projetos</option>						
+						<option value="comunidade">Comunidade</option>						
+						<option value="aberto">Código aberto</option>						
+					</select>
+				</div>
+				<div class="form-group">
+					<p>
+						O que você gostaria de ver melhorando? (Verifique tudo o que se aplica)
+					</p>
+					<label>
+						<input
+              name="prefer"
+              value="front-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Projetos de Front-end</label>
+          <label>
+            <input
+              name="prefer"
+              value="back-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Projetos de Back-end</label>
+          <label>
+						<input
+              name="prefer"
+              value="data-visualization"
+              type="checkbox"
+              class="input-checkbox"
+            />Visualização de dados</label>
+          <label>
+						<input
+              name="prefer"
+              value="challenges"
+              type="checkbox"
+              class="input-checkbox"
+            />Desafios</label>
+          <label>
+						<input
+              name="prefer"
+              value="open-source-community"
+              type="checkbox"
+              class="input-checkbox"
+            />Comunidade de código aberto</label>
+          <label>
+						<input
+              name="prefer"
+              value="gitter-help-rooms"
+              type="checkbox"
+              class="input-checkbox"
+            />Salas de ajuda Gitter</label>
+          <label>
+						<input
+              name="prefer"
+              value="videos"
+              type="checkbox"
+              class="input-checkbox"
+            />Vídeos</label>
+          <label>
+						<input
+              name="prefer"
+              value="city-meetups"
+              type="checkbox"
+              class="input-checkbox"
+            />City Meetups</label>
+          <label>
+						<input
+              name="prefer"
+              value="wiki"
+              type="checkbox"
+              class="input-checkbox"
+            />Wiki</label>
+          <label>
+						<input
+              name="prefer"
+              value="forum"
+              type="checkbox"
+              class="input-checkbox"
+            />Fórum</label>
+          <label>
+						<input
+              name="prefer"
+              value="additional-courses"
+              type="checkbox"
+              class="input-checkbox"
+            />Cursos adicionais</label>
+        </div>
+				<div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
         <div class="form-group">
-            <label id="number-label">Idade</label>
-            <input type="number" id="number" min="10" max="99" placeholder="Age">
-        </div>
-        <div class="form-group">
-            <label for="role-label">Qual opção melhor descreve sua função atual?</label>
-            <select name="role" id="role">
-                <option value="">Select current role</option>
-                <option value="1">Student</option>
-                <option value="2">Full time Job</option>
-                <option value="3">Full Time Learner</option>
-                <option value="4">Prefer not to say</option>
-                <option value="5">Other</option>
-            </select>
-        </div>
-        <div>
-            <button class="submit-button" id="submit">Submit</button>
-        </div>
-    </div>
-    </form>
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
 </body>
 </html>
-        
