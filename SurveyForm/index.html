@@ -1,160 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<meta charset="UTF-8">
-	<title>Formulário de pesquisa</title>
-	<h1 class="text-center" id="title">freeCodeCamp Survey Form</h1>
-	<p class="text-center" id="description">Thank you for taking the time to help us improve the platform</p>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="box">
-		<form action="" id="survey-form">
-			<fieldset>
-				<div class="form-group">
-					<label id="name-label">Nome</label>
-					<input type="text" id="name" placeholder="Digite seu nome" required>
-				</div>
-				<div class="form-group">
-					<label id="email-label">Email</label>
-					<input type="email" id="email" placeholder="Digite seu e-mail" required>
-				</div>
-				<div class="form-group">
-					<label id="number-label">Idade (opcional)</label>
-					<input type="number" id="number" placeholder="Idade" min="10" max="99">
-				</div>
-				<div class="form-group">
-					<label id="funcao">Qual a opção que melhor descreve o seu papel atual?</label>
-					<select name="role" id="dropdown" required>
-						<option disabled selected value>Selecione uma opção</option>
-						<option value="estudante">Estudante</option>
-						<option value="trabalho">Trabalho em tempo integral</option>						
-						<option value="aula">Aluno em tempo integral</option>						
-						<option value="prefiro">Prefiro não dizer</option>						
-						<option value="outros">Outros</option>							
-					</select>
-				</div>
+  <h1 id="title">
+    Escola vida nova
+  </h1>
+  <p id="description">
+    Sua opinião é chave para o nosso sucesso
+  </p>
+  <form action="" id="survey-form">
 
-				<div class="form-group">
-					<label>Você recomendaria o freeCodeCamp a um amigo?</label>
-					<label>
-						<input name="amigo" class="oradio" value="recom" name="Definitivamente" type="radio" checked>Definitivamente
-					</label>
-					<label>
-						<input name="amigo" class="oradio" value="recom" name="Talvez" type="radio">Talvez
-					</label>
-					<label>
-						<input name="amigo" class="oradio" value="recom" name="Não tenho certeza" type="radio">Não tenho certeza
-				</label>
-				<div class="form-group">
-					<label id="funcao">Qual a opção que melhor descreve o seu papel atual?</label>
-					<select name="role" id="feature" required>
-						<option disabled selected value>Selecione uma opção</option>
-						<option value="desafios">Desafios</option>
-						<option value="projetos">Projetos</option>						
-						<option value="comunidade">Comunidade</option>						
-						<option value="aberto">Código aberto</option>						
-					</select>
-				</div>
-				<div class="form-group">
-					<p>
-						O que você gostaria de ver melhorando? (Verifique tudo o que se aplica)
-					</p>
-					<label>
-						<input
-              name="prefer"
-              value="front-end-projects"
-              type="checkbox"
-              class="input-checkbox"
-            />Projetos de Front-end</label>
-          <label>
-            <input
-              name="prefer"
-              value="back-end-projects"
-              type="checkbox"
-              class="input-checkbox"
-            />Projetos de Back-end</label>
-          <label>
-						<input
-              name="prefer"
-              value="data-visualization"
-              type="checkbox"
-              class="input-checkbox"
-            />Visualização de dados</label>
-          <label>
-						<input
-              name="prefer"
-              value="challenges"
-              type="checkbox"
-              class="input-checkbox"
-            />Desafios</label>
-          <label>
-						<input
-              name="prefer"
-              value="open-source-community"
-              type="checkbox"
-              class="input-checkbox"
-            />Comunidade de código aberto</label>
-          <label>
-						<input
-              name="prefer"
-              value="gitter-help-rooms"
-              type="checkbox"
-              class="input-checkbox"
-            />Salas de ajuda Gitter</label>
-          <label>
-						<input
-              name="prefer"
-              value="videos"
-              type="checkbox"
-              class="input-checkbox"
-            />Vídeos</label>
-          <label>
-						<input
-              name="prefer"
-              value="city-meetups"
-              type="checkbox"
-              class="input-checkbox"
-            />City Meetups</label>
-          <label>
-						<input
-              name="prefer"
-              value="wiki"
-              type="checkbox"
-              class="input-checkbox"
-            />Wiki</label>
-          <label>
-						<input
-              name="prefer"
-              value="forum"
-              type="checkbox"
-              class="input-checkbox"
-            />Fórum</label>
-          <label>
-						<input
-              name="prefer"
-              value="additional-courses"
-              type="checkbox"
-              class="input-checkbox"
-            />Cursos adicionais</label>
-        </div>
-				<div class="form-group">
-          <p>Any comments or suggestions?</p>
-          <textarea
-            id="comments"
-            class="input-textarea"
-            name="comment"
-            placeholder="Enter your comment here..."
-          ></textarea>
-        </div>
+    <div class="campos">
+      <label for="" id="name-label">
+        Nome
+      </label>
+      <input type="text" id="name" placeholder="Coloque seu nome" required>
+    </div>
+      
+    <div class="campos">
+      <label for="" id="email-label">
+        Email
+      </label>
+      <input id="email" type="email" placeholder="Coloque seu email" required>
+    </div>
 
-        <div class="form-group">
-          <button type="submit" id="submit" class="submit-button">
-            Submit
-          </button>
-				</div>
-			</fieldset>
-		</form>
-	</div>
+    <div class="campos">
+      <label for="" id="number-label">
+        Idade
+      </label>
+      <input id="number" type="number" min="10" max="99" placeholder="Idade" required>
+    </div>
+
+    <div class="campos">
+      <p>Qual opção melhor descreve sua função atual?</p>
+      <select name="descreve" id="dropdown" required>
+        <option disabled selected value="">Selecione uma opção</option>
+        <option value="estudante">Estudante</option>
+        <option value="trabalho">Trabalho em tempo integral</option>
+        <option value="estudo">Estudo em tempo integral</option>
+        <option value="dizer">Prefiro não dizer</option>
+        <option value="outro">Outro</option>
+      </select>
+    </div>
+
+    <div class="campos">
+      <p>Você recomendaria a Escola vida nova para os seus amigos?</p>
+      <label id="recomenda-label">
+        <input type="radio" id="recomenda" name="escolha" checked>Com certeza
+      </label>
+      <label id="recomeda-label">
+        <input type="radio" id="recomenda" name="escolha">Talvez
+      </label>
+      <label id="recomenda-label">
+        <input type="radio" id="recomenda" name="escolha">Nunca
+      </label>
+    </div>
+
+    <div class="campos">
+      <p>Qual é o seu recurso favorito da escola vida nova?</p>
+      <select name="descreve" id="dropdown" required>
+        <option disabled selected value="">Selecione uma opção</option>
+        <option value="desafio">Desafios</option>
+        <option value="projetos">Projetos</option>
+        <option value="comunidade">Comunidade</option>
+      </select>
+    </div>
+
+    <div class="campos">
+      <p>O que você gostaria de ver melhorando?</p>
+      
+      <label>
+        <input type="checkbox" name="melhoria[]" value="Infraestrutura"> Infraestrutura da escola
+      </label><br>
+      <label>
+        <input type="checkbox" name="melhoria[]" value="Conteúdo"> Qualidade das aulas
+      </label><br>
+      <label>
+        <input type="checkbox" name="melhoria[]" value="materiais"> Disponibilidade de materiais didáticos
+      </label><br>
+      <label>
+        <input type="checkbox" name="melhoria[]" value="atividades"> Atividades extracurriculares
+      </label><br>
+      <label>
+        <input type="checkbox" name="melhoria[]" value="Recursos acesso"> Acesso à tecnologia
+      </label><br>
+      <label>
+        <input type="checkbox" name="melhoria[]" value="aconpanhamento"> Acompanhamento individualizado
+      </label><br>
+      <label>
+        <input type="checkbox" name="melhoria[]" value="segurança"> Segurança na escola
+      </label><br>
+      <label>
+        <input type="checkbox" name="melhoria[]" value="nutrição"> Nutrição na cantina
+      </label><br>
+      <label>
+        <input type="checkbox" name="melhoria[]" value="comunicação"> Comunicação entre escola e pais/responsáveis
+      </label><br>
+      <label>
+        <input type="checkbox" name="melhoria[]" value="acessibilidade"> Acessibilidade para pessoas com necessidades especiais
+      </label><br>
+      <label>
+        <input type="checkbox" name="melhoria[]" value="biblioteca"> Biblioteca e acervo
+      </label>
+    </div>
+
+    <div class="campos">
+      <p>Algum comentário ou sugestão?</p>
+      <label for="comentario"><textarea id="comentario" rows="3" cols="30" placeholder="Escreva seu comentário aqui..." name="comentario"></textarea></label>
+    </div>
+      
+    <div class="submit">
+      <input id="submit" type="submit">
+    </div>
+  </form>
 </body>
 </html>
