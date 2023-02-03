@@ -15,13 +15,14 @@ h1, p{
 
 form{
 	color: white;
-	width: 60vw;
-	max-width: 500px;
+	width: 100vw;
+	max-width: 600px;
 	min-width: 300px;
 	margin: 0 auto;
 	padding: 2em;
 	background-color: rgb(37, 37, 69);
 	border-radius: 12px;
+	
 }
 
 label{
