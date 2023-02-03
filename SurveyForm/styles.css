@@ -9,12 +9,12 @@ body{
 	background-image: repeating-linear-gradient(45deg, #5d5d70 0, #5d5d70 1px, #000000 0, #000000 50%);
 }
 
-h1, p{
+#title, #description{
 	color: white;
 	text-align: center;
 }
 
-p{
+#description{
 	margin-top: -15px;
 }
 
@@ -77,6 +77,11 @@ textarea{
 
 .texto{
 	display: inline-block;
+}
+
+#dropdown{
+	margin-top: -20px;
+	padding: 9px;
 }
 
 /*SUBMIT*/
