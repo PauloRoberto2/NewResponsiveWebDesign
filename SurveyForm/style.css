@@ -27,3 +27,32 @@ form{
 label{
 	display: block;
 }
+
+.campos{
+	border: none;
+	padding: 1rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+#recomenda{
+	width: unset;
+	margin: 0 0.5rem 0 0;
+	vertical-align: middle;
+}
+
+.gostaria{
+	width: unset;
+	margin: 0 0.5rem 0 0;
+	vertical-align: middle;
+}
+
+.texto{
+	display: inline-block;
+}
