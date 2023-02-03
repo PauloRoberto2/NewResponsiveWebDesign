@@ -2,6 +2,7 @@ body{
 	width: 100%;
 	height: 100vh;
 	margin: 0;
+	font-family: Cambria;
 	background-color: #000000;
 	opacity: 0.8;
 	background-size: 10px 10px;
@@ -27,7 +28,7 @@ form{
 	padding: 2em;
 	background-color: rgb(37, 37, 69);
 	border-radius: 12px;
-	
+	font-size: large;	
 }
 
 label{
@@ -47,21 +48,29 @@ select {
   min-height: 2em;
 }
 
-input, textarea {
+input, textarea, select {
 	border-radius: 0.5ch;
   background-color: white;
-  border: 1px solid #0a0a23;
+  border: 1px solid #1E1E37;
   color: black;
+}
+
+textarea{
+	height: 8rem;
 }
 
 #recomenda{
 	width: unset;
 	margin: 0 0.5rem 0 0;
 	vertical-align: middle;
+	min-height: 1.20rem;
+	min-width: 1.20rem;
 }
 
 .gostaria{
 	width: unset;
+	min-height: 1.20rem;
+	min-width: 1.20rem;
 	margin: 0 0.5rem 0 0;
 	vertical-align: middle;
 }
@@ -72,8 +81,10 @@ input, textarea {
 
 /*SUBMIT*/
 #submit{
-	background-color: greenyellow;	
+	background-color: #247881;
+	padding: 10px;
+	color: white;
 }
 #submit:hover{
-	background-color: aqua;
+	background-color: #30AADD;
 }
