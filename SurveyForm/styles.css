@@ -13,12 +13,17 @@ h1, p{
 	text-align: center;
 }
 
+p{
+	margin-top: -15px;
+}
+
 form{
 	color: white;
 	width: 100vw;
 	max-width: 600px;
 	min-width: 300px;
 	margin: 0 auto;
+	margin-top: 40px;
 	padding: 2em;
 	background-color: rgb(37, 37, 69);
 	border-radius: 12px;
@@ -42,6 +47,13 @@ select {
   min-height: 2em;
 }
 
+input, textarea {
+	border-radius: 0.5ch;
+  background-color: white;
+  border: 1px solid #0a0a23;
+  color: black;
+}
+
 #recomenda{
 	width: unset;
 	margin: 0 0.5rem 0 0;
@@ -56,4 +68,12 @@ select {
 
 .texto{
 	display: inline-block;
+}
+
+/*SUBMIT*/
+#submit{
+	background-color: greenyellow;	
+}
+#submit:hover{
+	background-color: aqua;
 }
