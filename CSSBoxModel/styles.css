@@ -8,4 +8,6 @@
 	border: solid black 50px;
 	width: 500px;
 	padding: 50px;
+	/*Margem vertical 20px, horizontal auto*/
+	margin: 20px auto;
 }
