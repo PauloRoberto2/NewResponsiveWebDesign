@@ -92,5 +92,6 @@ textarea{
 	color: white;
 }
 #submit:hover{
-	background-color: #30AADD;
+	background-color: #ffff;
+	color: #000000;
 }
