@@ -17,3 +17,8 @@ body{
 	margin: 20px auto;
 	padding: 0 7px;
 }
+
+h1{
+	font-weight: 800;
+	text-align: center;
+}
