@@ -93,3 +93,8 @@ p {
 .double-indent{
 	margin-left: 2em;
 }
+
+.note{
+	font-size: 0.6rem;
+	margin: 5px 0;
+}
