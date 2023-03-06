@@ -37,6 +37,7 @@ nav > ul {
 
 h1, h2 {
 	font-family: Verdana, sans-serif;
+  border-bottom: 4px solid#dfdfe2;
 }
 
 h2 {
