@@ -35,7 +35,16 @@ nav > ul {
   justify-content: space-evenly;
 }
 
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
 
+li > a {
+  color: #E4E4E4;
+}
 
 h1,
 h2 {
