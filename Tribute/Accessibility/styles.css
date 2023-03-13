@@ -37,13 +37,13 @@ nav {
 
 nav > ul {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
   padding-inline-start: 0;
   margin-block: 0;
   height: 100%;
-} 
+}
 
 nav > ul > li {
   color: #dfdfe2;
@@ -69,10 +69,7 @@ main {
 
 section {
   width: 80%;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
+  margin: 0 auto 10px auto;
   max-width: 600px;
 }
 
@@ -83,16 +80,15 @@ h2 {
 
 h2 {
   border-bottom: 4px solid #dfdfe2;
+  margin-top: 0px;
   padding-top: 60px;
-  margin-top: 0;
 }
 
 .info {
-  padding-top: 1px;
-  padding-right: 0;
-  padding-left: 1px;
-  padding-bottom: 0;
+  padding: 10px 0 0 5px;
 }
+
+
 
 p::before {
   content: "Question #";
