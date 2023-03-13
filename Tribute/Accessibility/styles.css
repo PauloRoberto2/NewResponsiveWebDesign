@@ -97,6 +97,11 @@ input {
   font-size: 13px;
 }
 
+.info > label, .info > input {
+  display: inline-block;
+  text-align: right;
+}
+
 .info input {
   width: 50%;
   text-align: left;
