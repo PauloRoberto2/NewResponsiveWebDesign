@@ -97,6 +97,11 @@ input {
   font-size: 13px;
 }
 
+.info > input {
+  width: 50%;
+  text-align: left;
+}
+
 p::before {
   content: "Question #";
 }
