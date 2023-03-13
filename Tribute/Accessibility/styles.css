@@ -150,6 +150,12 @@ button {
   border: 3px solid #3b3b4f;
 }
 
+footer {
+  background-color: #2a2a40;
+  display: flex;
+  justify-content: center;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
