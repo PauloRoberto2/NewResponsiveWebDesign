@@ -135,6 +135,11 @@ p::before {
   padding-bottom: 0;
 }
 
+.answers-list {
+  padding: 0;
+  list-style: none;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
