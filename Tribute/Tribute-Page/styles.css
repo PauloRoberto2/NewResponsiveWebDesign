@@ -2,6 +2,8 @@
 
 }
 
-main {
+#main {
     background-color: #FEFE33;
+    text-align: center;
+    padding-top: 1.5rem;
 }
