@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #f5f6f7;
   color: #1b1b32;
@@ -146,7 +150,7 @@ button {
   width: 40%;
   padding: 15px;
   font-size: 23px;
-  background: #d0d0d5;
+  background: #FDDC22;
   border: 3px solid #3b3b4f;
 }
 
@@ -154,6 +158,15 @@ footer {
   background-color: #2a2a40;
   display: flex;
   justify-content: center;
+}
+
+footer, footer a {
+  color: #FDDC22;
+}
+
+address {
+  text-align: center;
+  padding: 0.3em;
 }
 
 .sr-only {
