@@ -25,6 +25,12 @@ h1 {
     color: #FED97D;
 }
 
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
 #sub-title {
     padding-bottom: 1em;
 }
@@ -36,10 +42,28 @@ img {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+    img {
+      max-width: 60%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    img {
+      max-width: 60%;
+    }
+  }
+
 #img-div {
     background-color: #807b4d;
     padding: 0.6rem;
     margin: 0;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
 }
 
 figcaption {
@@ -50,3 +74,14 @@ figcaption {
 figcaption > span {
     color: 	#cfccaf;
 }
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
