@@ -92,6 +92,12 @@ ul {
     margin: 16px 0;
   }
 
+  blockquote {
+    font-style: italic;
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+  }
+
   h3 > a {
     
   }
