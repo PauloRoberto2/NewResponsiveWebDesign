@@ -101,7 +101,7 @@ ul {
 a {
     position: relative;
     text-decoration: none;
-    color: #FFED00;
+    color: #F2E650;
 }
 a::after {
     content: "";
