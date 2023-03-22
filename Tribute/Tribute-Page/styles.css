@@ -73,12 +73,12 @@ img {
 }
 
 figcaption {
-    color: #07111D;
+    color: #d1ff02;
     margin: 0.9rem 0 0.3rem 0;
 }
 
 figcaption > span {
-    color: 	#C2BE99;
+    color: 	#98978d;
 }
 
 ul {
@@ -90,6 +90,7 @@ ul {
   
   li {
     margin: 16px 0;
+    text-align: justify;
   }
 
   blockquote {
@@ -101,7 +102,7 @@ ul {
 a {
     position: relative;
     text-decoration: none;
-    color: #F2E650;
+    color: #fff563;
 }
 a::after {
     content: "";
