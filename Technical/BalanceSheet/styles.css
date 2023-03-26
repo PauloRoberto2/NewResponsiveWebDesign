@@ -7,6 +7,9 @@ span[class~="sr-only"] {
     height: 1px;
     overflow: hidden;
     white-space: nowrap;
+    position: absolute;
+    padding: 0;
+    margin: -1px;
 }
 
 html {
