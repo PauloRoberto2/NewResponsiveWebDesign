@@ -81,3 +81,8 @@ table {
     margin-top: 3rem;
 }
 
+table caption {
+    color: #356eaf;
+    font-size: 1.3em;
+    font-weight: normal;
+}
