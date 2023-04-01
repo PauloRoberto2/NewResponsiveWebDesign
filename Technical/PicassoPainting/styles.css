@@ -45,7 +45,7 @@ body {
     z-index: 1;
 }
 
-#gray-instrument{
+#gray-instrument {
     width: 15%;
     height: 40%;
     background-color: rgb(167, 162, 117);
@@ -55,3 +55,8 @@ body {
     z-index: 1;
 }
 
+.black-dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(45, 31, 19);
+}
