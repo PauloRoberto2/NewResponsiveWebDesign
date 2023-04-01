@@ -25,4 +25,5 @@ body {
     width: 0;
     height: 0;
     border-style: solid;
+    border-width: 0 120px 140px 180px;
 }
