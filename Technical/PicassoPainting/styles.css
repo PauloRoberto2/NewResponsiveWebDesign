@@ -215,3 +215,9 @@ body {
 	position: absolute;
 	left: 100px;
 }
+
+.fa-bars {
+	display: block;
+	margin-top: 30%;
+	margin-left: 40%;
+}
