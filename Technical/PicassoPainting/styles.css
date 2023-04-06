@@ -205,3 +205,8 @@ body {
 	background-color: goldenrod;
 	border-radius: 50%;
 }
+
+#guitar-left {
+	position: absolute;
+	left: 0px;
+}
