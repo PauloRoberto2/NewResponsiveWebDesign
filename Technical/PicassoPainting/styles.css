@@ -200,5 +200,8 @@ body {
 }
 
 .guitar {
-	
+	width: 150px;
+	height: 120px;
+	background-origin: goldenrod;
+	border-radius: 50%;
 }
