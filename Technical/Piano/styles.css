@@ -21,6 +21,7 @@ html {
   width: 949px;
   height: 180px;
   padding-left: 2px;
+  overflow: hidden;
 }
 
 .key {
@@ -55,5 +56,8 @@ html {
   }
   .keys {
     width: 318px;
+  }
+  .logo {
+    width: 150px;
   }
 }
