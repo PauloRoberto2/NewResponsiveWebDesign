@@ -10,4 +10,9 @@ p {
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 500;
 	font-size: 21px;
+	text-align: justify;
+}
+
+ul {
+	list-style-type:square;
 }
