@@ -12,6 +12,12 @@
 	border-color: rgba(0, 22, 22, 0.4);
 }
 
+/* ---------------- */
+
+body {
+	background-color: #dddddd;
+}
+
 #main-doc {
 	position: absolute;
 	margin-left: 310px;
@@ -22,13 +28,13 @@
 header {
 	font-family: 'Roboto Mono' monospace;
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 40px;
 }
 
 p {
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 500;
-	font-size: 21px;
+	font-size: 18px;
 	text-align: justify;
 }
 
@@ -49,6 +55,7 @@ code {
 	padding: 0 15px;
 	margin: 10px;
 	border-radius: 5px;
+	user-select: text;
 }
 
 /* COR DOS CODIGOS */
