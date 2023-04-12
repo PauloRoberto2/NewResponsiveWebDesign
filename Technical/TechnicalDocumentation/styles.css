@@ -35,3 +35,28 @@ p {
 ul {
 	list-style-type:square;
 }
+
+/* CODIGOS */
+
+code {
+	display: block;
+	text-align: left;
+	white-space: pre;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	background-color: #e9e2e2d7;
+	padding: 0 15px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+/* COR DOS CODIGOS */
+
+.cor-code {
+	color: #569cd6;
+}
+
+.string-cor {
+	color: #ce9178;
+}

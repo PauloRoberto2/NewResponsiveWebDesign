@@ -11,18 +11,15 @@
 	<!-- Tentando colocar uma navbar -->
 	<nav id="navbar">
 		<header>Documentação do C#</header>
-		<ul>
-			<li>
-				<a href="#introducao" class="nav-link">
-					Introdução
-				</a>
+		<div class="introcao">
+			<ul>
 				<li>
-					<a href="#ola-mundo" class="nav-link">
-						Olá Mundo!
+					<a href="#introducao" class="nav-link">
+						Introdução
 					</a>
 				</li>
-			</li>
-		</ul>
+			</ul>
+		</div>
 	</nav>
 
 	<main id="main-doc">
@@ -40,6 +37,23 @@
 		</section>
 		<section class="main-section" id="ola-mundo">
 			<header>Olá mundo!</header>
+			<p>
+				O programa "Hello, World" é usado tradicionalmente para introduzir uma linguagem de programação. Este é para C#
+			</p>
+			<pre>
+
+				<code>
+				<span class="cor-code">using</span> System;
+					
+				<span class="cor-code">class Hello</span>
+				{
+					<span class="cor-code">static void Main</span>()
+					{
+						Console.WriteLine(<span class="string-cor">"Hello, World"</span>);
+					}
+				}
+			</code>
+		</pre>
 		</section>
 		<section class="main-section" id="como_usar">
 			<header>Como usar a CSS?</header>
