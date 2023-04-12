@@ -29,7 +29,8 @@ body {
 header {
 	font-family: 'Roboto Mono' monospace;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 2em;
+	font-weight: thin;
 }
 
 p {
@@ -67,4 +68,14 @@ code {
 
 .string-cor {
 	color: #ce9178;
+}
+
+.destaque {
+	background-color: #404040;
+	color: #e6e6e6;
+	padding: 0.14rem;
+}
+
+section ul li {
+	margin: 8px;
 }
