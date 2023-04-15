@@ -41,6 +41,7 @@ body {
 #navbar ul li a {
 	color: rgb(0, 0, 0);
 	padding: 0 30px;
+	transition: all ease-in-out 0.4s;
 }
 
 #navbar ul {
@@ -50,11 +51,10 @@ body {
 #navbar ul li a:hover {
 	color: #569cd6;
 	margin-left: 10px;
-	transition: 0.4s;
+	transition: all ease-in-out 0.4s;
 }
 
 /* ---------------- */
-
 
 #main-doc {
 	position: absolute;
@@ -81,6 +81,7 @@ p {
 section ul {
 	padding-left: 15px;
 }
+
 /* CODIGOS */
 
 code {
@@ -95,6 +96,8 @@ code {
 	margin: 10px;
 	border-radius: 5px;
 	user-select: text;
+	tab-size: 4;
+	padding-left: 1em;
 }
 
 /* COR DOS CODIGOS */
