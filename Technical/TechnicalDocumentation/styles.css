@@ -51,7 +51,6 @@ body {
 #navbar ul li a:hover {
 	color: #569cd6;
 	margin-left: 10px;
-	transition: all ease-in-out 0.4s;
 }
 
 /* ---------------- */
@@ -91,7 +90,7 @@ code {
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
-	background-color: #e9e2e2d7;
+	background-color: #e9e2e2;
 	padding: 0 15px;
 	margin: 10px;
 	border-radius: 5px;
