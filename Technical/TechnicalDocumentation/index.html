@@ -15,7 +15,7 @@
 			<li><a class="nav-link" href="#introducao">Introdução</a></li>
 			<li><a class="nav-link" href="#arquitetura_do_dotnet">Arquitetura do .NET</a></li>
 			<li><a class="nav-link" href="#ola_mundo">Olá mundo!</a></li>
-			<li><a class="nav-link" href="">Tipos e variáveis</a></li>
+			<li><a class="nav-link" href="estrutura_do_programa">Estrutura do programa</a></li>
 		</ul>
 	</nav>
 
@@ -53,6 +53,7 @@
 			<p>
 				O programa "Hello, World" é usado tradicionalmente para introduzir uma linguagem de programação. Este é para C#:
 			</p>
+			<!-- codigo -->
 			<pre>
 				<code>
 <span class="cor-code">using</span> System;
@@ -75,7 +76,7 @@
 			</p>
 			<p>A estrutura de tópicos a seguir fornece uma visão geral do sistema de tipos do C#.</p>
 			<ul>
-				<li>Tipos de valor</li>
+				<li class="preechido">Tipos de valor</li>
 				<ul>
 					<li>Tipos simples</li>
 					<ul>
@@ -97,15 +98,47 @@
 						<li>
 							Booliano: <span class="destaque">bool</span>, que representa valores boolianos - valores que são <span class="destaque">true</span> ou <span class="destaque">false</span>
 						</li>
+						<li>
+							Tipo enum
+							<ul>
+								<li>
+									Um tipo enum é uma maneira de definir um conjunto limitado de valores com nomes significativos e é uma alternativa para o uso de constantes numéricas.
+								</li>
+							</ul>
+						</li>
+						<li>
+							Tipo struct
+							<ul>
+								<li>
+									Tipos definidos pelo usuários do formulário <span class="destaque">struct S {....}</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							Tipos de valor anuláveis
+							<ul>
+								<li>Extensões de todos os outros tipos de valor com um valor <span class="destaque">null</span></li>
+							</ul>
+						</li>
 					</ul>
-					<li>
+					<li class="preechido">
 						Tipos de referência
 					</li>
+					<ul>
+						<li>
+							Tipos de aula
+							<ul>
+								<li>
+									Classe base definitiva de todos os outros tipos: <span class="destaque">object</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
 				</ul>
 			</ul>
 		</section>
-		<section class="main-section" id="introdução">
-			<header>Introdução</header>
+		<section class="main-section" id="estrutura_do_programa">
+			<header>Estrutura do programa</header>
 		</section>
 		<section class="main-section" id="introdução">
 			<header>Introdução</header>

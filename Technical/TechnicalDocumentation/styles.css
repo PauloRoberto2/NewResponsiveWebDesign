@@ -50,7 +50,7 @@ body {
 
 #navbar ul li a:hover {
 	color: #569cd6;
-	margin-left: 10px;
+	margin-left: 5px;
 }
 
 /* ---------------- */
@@ -117,4 +117,13 @@ code {
 
 section ul li {
 	margin: 8px;
+}
+
+/* Listas */
+.preechido {
+	list-style-type: disc;
+}
+
+#main li {
+	list-style-type: circle;
 }
