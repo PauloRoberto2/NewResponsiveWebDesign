@@ -120,10 +120,10 @@ section ul li {
 }
 
 /* Listas */
-.preechido {
+#main-doc .preechido {
 	list-style-type: disc;
 }
 
-#main li {
+#main-doc li {
 	list-style-type: circle;
 }
