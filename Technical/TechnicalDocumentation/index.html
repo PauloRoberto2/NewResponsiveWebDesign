@@ -143,6 +143,51 @@
 		</section>
 		<section class="main-section" id="Estrutura_do_programa">
 			<header>Estrutura do programa</header>
+			<p>
+				Os principais conceitos organizacionais em C# são programas, namespaces, tipos, membros e assemblies. Os programas declaram tipos que contêm membros e podem ser organizados em namespaces. Classes, structs e interfaces são exemplos de tipos. Campos, métodos, propriedades e eventos são exemplos de membros. Quando os programas em C# são compilados, eles são empacotados fisicamente em assemblies. Os assemblies normalmente têm a extensão de arquivo <span class="destaque">.exe</span> ou <span class="destaque">.dll</span>, dependendo se eles implementam aplicativos ou bibliotecas, respectivamente.
+			</p>
+			<p>
+				Como um pequeno exemplo, considere um assembly que contém o seguinte código:
+			</p>
+			<pre>
+				<code>
+<span class="cor-code">namespace</span> <span class="cor-code1">Acme.Collections</span>;
+
+<span class="cor-code">public class</span> <span class="cor-code1">Stack</span><<span class="cor-code1">T</span>>
+{
+	Entry _top;
+
+	<span class="cor-code">public void</span> <span class="cor-code1">Push</span>(T data)
+	{
+		_top = <span class="cor-code">new</span> Entry(_top, data);
+	}
+
+	<span class="cor-code">public</span> T <span class="cor-code1">Pop</span>()
+	{
+		<span class="cor-code">if</span> (_top == <span class="cor-code1">null</span>)
+		{
+			<span class="cor-code1">throw new</span> InvalidOperationException();
+		}
+		T result = _top.Data;
+		_top = _top.Next;
+
+		<span class="cor-code">return</span> result;
+	}
+
+	<span class="cor-code">class</span> <span class="cor-code1">Entry</span>
+	{
+		<span class="cor-code">public</span> Entry Next { <span class="cor-code1">get</span>; <span class="cor-code1">set</span>; }
+		<span class="cor-code">public</span> T Data { <span class="cor-code1">get</span>; <span class="cor-code1">set</span>; }
+
+		<span class="cor-code">public</span> <span class="cor-code1">Entry</span>(Entry next, T data)
+		{
+			Next = next;
+			Data = data;
+		}
+	}
+}
+				</code>
+			</pre>
 		</section>
 	</main>
 </body>
