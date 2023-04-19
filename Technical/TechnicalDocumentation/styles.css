@@ -91,7 +91,8 @@ code {
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
-	background-color: #e9e2e2;
+	background-color: #2f2f2f;
+	color: #e6e6e6;
 	padding: 0 15px;
 	margin: 10px;
 	border-radius: 5px;
