@@ -75,6 +75,7 @@ p {
 	font-size: 18px;
 	text-align: justify;
 	padding: 1em;
+	line-height: 1.2;
 }
 
 section ul {
@@ -112,7 +113,8 @@ code {
 .destaque {
 	background-color: #404040;
 	color: #e6e6e6;
-	padding: 0.14rem;
+	padding: 0.09rem;
+	font-size: 15px;
 }
 
 section ul li {
