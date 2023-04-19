@@ -16,7 +16,7 @@ body {
 /* NAV BAR */
 #navbar {
 	position: fixed;
-	width: 210px;
+	width: 250px;
 	height: 100%;
 	min-width: 200px;
 	top: 0;
@@ -57,7 +57,7 @@ body {
 
 #main-doc {
 	position: absolute;
-	margin-left: 260px;
+	margin-left: 300px;
 	padding: 5px;
 	margin-bottom: 110px;
 }
