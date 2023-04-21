@@ -7,24 +7,28 @@
 	text-decoration: none;
 }
 
+
 body {
 	box-sizing: border-box;
 	font-family: 'Roboto Mono' monospace;
 	background-color: #dddddd;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 /* NAV BAR */
-#navbar {
-	position: fixed;
-	width: 250px;
-	height: 100%;
-	min-width: 200px;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	border-right: solid;
-	border-color: rgba(0, 22, 22, 0.4);
-	padding: 0 1rem 0 1rem;
+
+@media (min-width: 1280px) {
+	#navbar {
+		position: fixed;
+		height: 100%;
+	}
+	
+	#main-doc {
+		position: absolute;
+		margin-left: 250px;
+	}
 }
 
 #navbar header {
@@ -34,21 +38,30 @@ body {
 	padding: 20px;
 }
 
-#navbar ul li {
-	margin: 25px 0;
+#navbar {
+	background-color: #bababa;
+	border-bottom: 1px solid;
 }
 
-#navbar ul li a {
+#navbar li {
+	color: #020203;
+	border-top: 1px solid black;
+}
+
+#navbar a {
+	display: block;
+	padding: 10px 30px;
 	color: rgb(0, 0, 0);
-	padding: 0 30px;
+	text-decoration: none;
+	font-size: 18px;
 	transition: all ease-in-out 0.4s;
 }
 
-#navbar ul {
+#navbar li {
 	list-style-type:none;
 }
 
-#navbar ul li a:hover {
+#navbar a:hover {
 	color: #569cd6;
 	margin-left: 5px;
 }
@@ -56,8 +69,6 @@ body {
 /* ---------------- */
 
 #main-doc {
-	position: absolute;
-	margin-left: 300px;
 	padding: 5px;
 	margin-bottom: 110px;
 }
@@ -138,4 +149,23 @@ section ul li {
 
 #main-doc li {
 	list-style-type: circle;
+}
+
+/* botão para voltar ao topo */
+.goback {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background-color: #020203;
+	color: yellow;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+}
+
+.goback :hover {
+	color: yellowgreen;
 }
