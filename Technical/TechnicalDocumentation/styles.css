@@ -84,7 +84,12 @@ section ul {
 
 /* CODIGOS */
 
-code {
+#des {
+	background-color: #404040;
+	color: #e6e6e6;
+}
+
+pre {
 	display: block;
 	text-align: left;
 	white-space: pre;

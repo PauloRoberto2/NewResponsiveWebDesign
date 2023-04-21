@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +15,8 @@
 			<li><a class="nav-link" href="#Introdução">Introdução</a></li>
 			<li><a class="nav-link" href="#Arquitetura_do_.net">Arquitetura do .NET</a></li>
 			<li><a class="nav-link" href="#Hello_world">Hello World</a></li>
+			<li><a class="nav-link" href="#Variáveis">Variáveis</a></li>
+
 			<li><a class="nav-link" href="#Tipos_e_variáveis">Tipos e variáveis</a></li>
 			<li><a class="nav-link" href="#Estrutura_do_programa">Estrutura do programa</a></li>
 		</ul>
@@ -73,6 +75,36 @@
 		</p>
 		</section>
 		
+		<section class="main-section" id="Variáveis">
+			<header>Variáveis</header>
+
+			<p>
+				Em C#, existem diferentes tipos de variáveis ​(definidas com diferentes palavras-chave), por exemplo:
+				<ul>
+					<li class="preechido"><code id="des">int</code> - armazena inteiros (números inteiros), sem decimais, como 123 ou -123</li>
+					<li class="preechido"><code id="des">double</code> - armazena números de ponto flutuante, com decimais, como 19,99 ou -19,99</li>
+					<li class="preechido"><code id="des">char</code> - armazena caracteres únicos, como 'a' ou 'B'. Os valores de caracteres são cercados por aspas simples</li>
+					<li class="preechido"><code id="des">string</code> - armazena texto, como "Hello World". Os valores de string são colocados entre aspas duplas</li>
+					<li class="preechido"><code id="des">bool</code> - armazena valores com dois estados: verdadeiro ou falso</li>
+				</ul>
+			</p>
+
+			<article>
+				<h1>Declarando Variáveis</h1>
+				<p>Para cirar uma variável, você deve especificar o tipo e atribuir um valor a ela:</p>
+				<pre><code>
+type varableName = value;
+				</code></pre>
+				<p>
+					Onde type é um tipo C# (como intou string) e variableName é o nome da variável (como x ou name ). O sinal de igual é usado para atribuir valores à variável.
+				</p>
+				<pre><code>
+string name = <span class="string-cor">"John"</span>;
+Console. <span class="cor-code">WriteLine</span>(name);					
+				</code></pre>
+			</article>
+		</section>
+
 		<section class="main-section" id="Tipos_e_variáveis">
 			<header>Tipos e variáveis</header>
 			<p>
