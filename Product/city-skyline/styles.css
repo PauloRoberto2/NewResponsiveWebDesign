@@ -291,5 +291,13 @@
     )
 }
 @media (max-width: 1000px) {
-    
+    .sky {
+        background: radial-gradient(
+            circle closest-corner at 15% 15%,
+            #ffcf33 0%,
+            #ffcf33 20%,
+            #ffff66 21%,
+            #bbeeff 100%
+        );
+    }
 }
