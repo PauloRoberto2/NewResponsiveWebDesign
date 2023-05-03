@@ -52,7 +52,9 @@ nav ul li a:hover {
 	text-align: center;
 }
 
-#produtos {
+#precos {
 	display: flex;
-	
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
