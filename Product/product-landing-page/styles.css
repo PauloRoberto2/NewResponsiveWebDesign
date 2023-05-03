@@ -51,3 +51,8 @@ nav ul li a:hover {
 	align-items: center;
 	text-align: center;
 }
+
+#produtos {
+	display: flex;
+	
+}
