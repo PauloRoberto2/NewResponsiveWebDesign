@@ -61,6 +61,16 @@ nav ul li a:hover {
 	justify-content: space-around;
 }
 
+/* produto */
+
+.produto {
+	border: solid 1px black;
+}
+
+.produto ul {
+	list-style: none;
+}
+
 /* -----FOOTER----- */
 
 footer {
