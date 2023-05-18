@@ -61,3 +61,31 @@ nav ul li a:hover {
 	justify-content: space-around;
 }
 
+/* -----FOOTER----- */
+
+footer {
+	margin-top: 30px;
+	background-color: #ddd;
+	padding: 20px;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-links a {
+	margin-right: 10px;
+	text-decoration: none;
+	color: steelblue;
+}
+
+.copy {
+	margin-right: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.copy #copyright {
+	color: #5b5b5b;
+}
