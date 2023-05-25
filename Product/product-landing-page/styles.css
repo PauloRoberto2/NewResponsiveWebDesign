@@ -54,6 +54,10 @@ nav ul li a:hover {
 	text-align: center;
 }
 
+.hero #submit {
+	background-color: yellow;
+	padding: 10px;
+}
 
 /* produto */
 
