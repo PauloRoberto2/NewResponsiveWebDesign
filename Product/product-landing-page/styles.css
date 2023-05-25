@@ -59,6 +59,8 @@ nav ul li a:hover {
 	display: block;
 	margin: 0 auto;
 	background-color: yellow;
+	font-size: large;
+	font-weight: bold;
 }
 
 /* produto */
