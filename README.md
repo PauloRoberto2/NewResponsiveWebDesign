@@ -22,5 +22,3 @@ In this section of the course, you will learn about colors and how to use them i
 In this section of the course, you will learn how to create forms using HTML. Solutions for this section can be found in the [html-forms](https://github.com/PauloRoberto2/NewResponsiveWebDesign/tree/main/Survey/LearnHTMLForms) folder.
 
 ![Forms](https://user-images.githubusercontent.com/56531195/215638693-cf16c338-cd7d-4f68-adfd-397c3fcfb80a.png)
-
-All code is provided here for educational purposes only and should not be used for commercial purposes without permission.
