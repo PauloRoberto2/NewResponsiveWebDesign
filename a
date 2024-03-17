@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Nome: "
+read nome
+echo "Idade: "
+read idade
+
+echo "Olá, $nome! Você tem $idade anos, Bem-vindo!"
