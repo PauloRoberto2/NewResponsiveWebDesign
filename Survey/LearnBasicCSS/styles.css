@@ -67,8 +67,9 @@ h2 {
 }
 
 .price {
-  text-align: right;
+  float: right;
   width: 25%;
+  display: inline-block;
 }
 
 /*FOOTER*/
